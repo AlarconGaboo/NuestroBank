@@ -1,0 +1,96 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.folder-icon {
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 2em;
+    background: linear-gradient(90deg, red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+label {
+    font-size: 1em;
+    background: linear-gradient(90deg, red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px 0;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid; /* Añade un borde inferior */
+    background: none;
+    outline: none;
+    color: black;
+    position: relative;
+    border-image: linear-gradient(90deg, red, blue) 1; /* Degradé para la línea */
+}
+
+button {
+    background: linear-gradient(90deg, red, blue);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: linear-gradient(90deg, blue, red);
+}
+
+.resultado {
+    font-size: 1.5em;
+    background: linear-gradient(90deg, red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
